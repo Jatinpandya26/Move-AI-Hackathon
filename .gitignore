@@ -1,0 +1,8 @@
+# Node.js dependencies
+node_modules/
+
+# Frontend build files
+aptos-metaworld/aptos-metaworld-frontend/build
+
+# Environment files
+.env
