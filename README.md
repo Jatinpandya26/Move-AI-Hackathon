@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Aptos MetaWorld is a Metaverse platform designed to seamlessly blend Blockchain, AI-driven insights, and SocialFI. By leveraging the Aptos blockchain and Move AI Agent Kit, this project empowers users with features such as AI content generation, blockchain-powered onboarding, token transfers, and gamified portfolio management.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Demo
+**🌐 Frontend Link:** [AptosMetaWorld Frontend](https://aptos-metaworld-frontend.vercel.app/)
 
-## Available Scripts
+**⚙️ Backend Link:** [AptosMetaWorld Backend](https://move-ai-hackathon-backend.onrender.com/)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Blockchain Integration**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Account Creation: Users can onboard onto the Aptos blockchain with automatically generated accounts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Token Management: Transfer tokens and fetch wallet balances securely and efficiently.
 
-### `npm test`
+Portfolio Monitoring: Track assets and their distribution in real-time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **AI-Driven Insights**
 
-### `npm run build`
+Content Generation: Generate shareable content powered by Move AI Agent Kit to engage with social platforms.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Predictive Analytics: Gain personalized insights and recommendations for DeFi strategies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Gamified Dashboard**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Achievements: Encourage engagement with gamified achievements, such as "First Transfer" and "Content Creator."
 
-### `npm run eject`
+Interactive Portfolio: A visually engaging way to explore and manage assets.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technology Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend:
+Framework: React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Deployment: Vercel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Key Features:
 
-## Learn More
+Intuitive user interface
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Smooth interaction with backend APIs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Optimized deployment pipeline via Vercel
 
-### Code Splitting
+### Backend:
+Framework: Express.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Blockchain: Aptos Blockchain
 
-### Analyzing the Bundle Size
+Tooling: Move AI Agent Kit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Deployment: Render
 
-### Making a Progressive Web App
+### Key Features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+RESTful API endpoints for seamless communication
 
-### Advanced Configuration
+Integration with Aptos blockchain for account management and transactions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How It Works
 
-### Deployment
+**Onboarding:** A user creates their blockchain wallet via the `/onboard` API, which interacts with the Aptos blockchain to generate a secure wallet address.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Token Transfers:** Users can seamlessly transfer tokens using the `/transfer-tokens` API, which facilitates transactions on the blockchain.
 
-### `npm run build` fails to minify
+**Content Generation:** Using the Move AI Agent Kit, users can generate personalized content via the `/generate-content` API for social sharing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Insights:** The `/insights` endpoint provides AI-driven recommendations for DeFi operations.
